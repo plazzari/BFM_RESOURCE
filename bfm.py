@@ -189,7 +189,7 @@ ax.get_xaxis().set_major_formatter(ticker.FuncFormatter(fmt_1))
 ax.set_xlabel('$PAR$ ' + '$[\mu moles.m^{-2}.s^{-1}$' + fmt_2(IRR_array.mean(),0) + '$]$')
 
 ax.get_yaxis().set_major_formatter(ticker.FuncFormatter(fmt_1))
-ax.set_ylabel('$PO_4$ ' + '$[mmol.P.m^{-3}$ ' + fmt_2(PO4_array.mean(),0) + '$]$')
+ax.set_ylabel('$PO_4$ ' + '$[mmolP.m^{-3}$ ' + fmt_2(PO4_array.mean(),0) + '$]$')
 
 cb = plt.colorbar(format=ticker.FuncFormatter(fmt_1))
 cb.set_label('$NPP_{pico}$ ' + '$[mgC.m^{-3}.s^{-1}$ ' + fmt_2(cint,0) + '$]$')
@@ -237,7 +237,7 @@ ax.get_xaxis().set_major_formatter(ticker.FuncFormatter(fmt_1))
 ax.set_xlabel('$PAR$ ' + '$[\mu moles.m^{-2}.s^{-1}$' + fmt_2(IRR_array.mean(),0) + '$]$')
 
 ax.get_yaxis().set_major_formatter(ticker.FuncFormatter(fmt_1))
-ax.set_ylabel('$N$ ' + '$[mmol.N.m^{-3}$ ' + fmt_2(N_array.mean(),0) + '$]$')
+ax.set_ylabel('$N$ ' + '$[mmolN.m^{-3}$ ' + fmt_2(N_array.mean(),0) + '$]$')
 
 cb = plt.colorbar(format=ticker.FuncFormatter(fmt_1))
 cb.set_label('$NPP_{pico}$ ' + '$[mgC.m^{-3}.s^{-1}$ ' + fmt_2(cint,0) + '$]$')
